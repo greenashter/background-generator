@@ -1,0 +1,23 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(to right, #4374bc 0%, green 100%);    
+}
+
+.flex{
+    
+    display: flex;
+    justify-content: space-between; 
+}
+
+#random{
+    display: flex;
+    width: 20%;
+    margin-left: 40%;
+    justify-content: center;
+}
